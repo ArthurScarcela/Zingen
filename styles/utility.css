@@ -1,12 +1,15 @@
 .py-base {
   padding-block: var(--py-base);
 }
+
 .py-lg {
   padding-block: var(--py-lg);
 }
+
 .py-xl {
   padding-block: var(--py-xl);
 }
+
 .px-lg {
   padding-inline: var(--px-lg);
 }
@@ -26,19 +29,27 @@
   gap: 1rem;
 }
 
-.flex{
+.flex {
   display: flex;
+}
+
+.itens-center {
+  align-items: center;
 }
 
 .gap-1 {
   gap: 1rem;
 }
 
+.gap-1\.5 {
+  gap: 1.5rem;
+}
+
 .grid {
   display: grid;
 }
 
-@media (width >= 80em) {
+@media (width >=80em) {
   .container {
     --max-width: 80rem;
   }
